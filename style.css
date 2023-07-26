@@ -1,0 +1,105 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background-color:#2a9d8f ;
+}
+
+header {
+    background-color:#264653 ;
+    display: flex;
+    color: white;
+    position: relative;
+    top: 0;
+    left:0;
+    right: 0;
+    align-items: center;
+    
+}
+
+
+
+h1 {
+    font-size: 40px;
+    width:450px;
+    position: relative;
+    left:50px;
+    
+}
+h2 {
+    font-size: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    /*border: solid white;*/
+}
+
+
+a {
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    position:absolute;
+    bottom: 0;
+    
+}
+figure {
+    display: inline-flex;
+    flex-direction: column; 
+}
+
+
+
+.nav-ul{
+    display:flex;
+    flex-direction: row;
+    margin:30px;
+    list-style-type:none;
+}
+
+.nav-li{
+    margin-right:40px
+}
+
+.about-me{
+    display: flex;
+    margin-top: 25px;
+    padding: 10px;
+    flex-direction: row;
+    position: relative;
+    
+    background-color: #e9c46a;
+}
+
+
+
+.my-pic{
+    margin:15px;
+    border: solid black;
+    position: relative;
+    height:500px;
+   
+    
+}
+
+#about-me-text {
+    position: relative;
+    bottom:50px;
+    margin:50px;
+}
+
+#about-me-p {
+ font-size:20px;   
+    
+}

@@ -18,9 +18,9 @@ N/A
  ## Credits
  [Joshua Kennedy-Dedam](https://github.com/MagicianJoshua)
 
- [calulator picture]( wikipedia.com)
+ [calulator picture](https://wikipedia.com)
 
- [snake picture](coolmathgames.com)
+ [snake picture](https://coolmathgames.com)
 
  [tic tac toe picture](https://www.wallpaperflare.com/search?wallpaper=tic+tac+toe)
 

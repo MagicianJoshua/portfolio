@@ -18,15 +18,15 @@ N/A
  ## Credits
  [Joshua Kennedy-Dedam](https://github.com/MagicianJoshua)
 
- [calulator picture](https://wikipedia.com)
+ [calculator picture](https://wikipedia.com)
 
- [snake picture](https://coolmathgames.com)
+ [Snake picture](https://coolmathgames.com)
 
- [tic tac toe picture](https://www.wallpaperflare.com/search?wallpaper=tic+tac+toe)
+ [Tic tac toe picture](https://www.wallpaperflare.com/search?wallpaper=tic+tac+toe)
 
- [rock paper scissors picture](https://makecode.microbit.org/courses/csintro/conditionals/activity)
+ [Rock paper scissors picture](https://makecode.microbit.org/courses/csintro/conditionals/activity)
 
- [weather app picture](https://www.wallpaperflare.com/low-angle-clear-sky-photography-sky-blue-white-cloud-sunny-days-wallpaper-wlogq)
+ [Weather app picture](https://www.wallpaperflare.com/low-angle-clear-sky-photography-sky-blue-white-cloud-sunny-days-wallpaper-wlogq)
 
  ## License
  MIT License

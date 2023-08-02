@@ -7,82 +7,145 @@
   </head>
 
   <body>
+    <!-- This header is at the top of the page it is blue -->
     <header>
       <h1>Joshua's Portfolio</h1>
+      <!-- This nav element is the nav bar for the whole website -->
       <nav>
         <ul class="nav-ul">
-          <li><a href="#projects">Projects</a></li>
           <li><a href="#about-me">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact-me">Contact me</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- <section class="projects" id="#projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><figure>
-          <img src="assets/calculator.jpg"
-          ><figcaption>Calulator app</figcaption>
-        </figure>
-      </li>
-        
-      <li><figure>
-        <img src="assets/calculator.jpg"
-        ><figcaption>Tic-Tac-Toe app</figcaption>
-      </figure>
-    </li>
-
-        <li>
-          <figure>
-          <img src="assets/calculator.jpg">
-          <figcaption>Calulator app</figcaption>
-        </figure>
-      </li>
-       
-      <li>
-        <figure>
-        <img src="assets/calculator.jpg">
-        <figcaption>Calulator app</figcaption>
-      </figure>
-    </li>
-
-    <li>
-      <figure>
-      <img src="assets/calculator.jpg">
-      <figcaption>Calulator app</figcaption>
-    </figure>
-  </li>
-
-  <li>
-    <figure>
-    <img src="assets/calculator.jpg">
-    <figcaption>Calulator app</figcaption>
-  </figure>
-</li>
-      </ul>
-    </section> -->
-
-
-
-
-
     <section id="about-me" class="about-me">
       <figure>
-          <img src="assets/my-pic.jpg"/>
-        </figure>
-          <section id="about-me-text">
-          <h2>About me</h2>
-          <p id="about-me-p">
-            My name is Joshua Kennedy-Dedam and I am a 20 year old music teacher from Listuguj, QC. <br>
-            I have a passion for learning that stems from childhood, always wanting to learn as much as I can <br>
-            in my particular hobby at the time. For me learning isn't just a way to keep up with current times, <br>
-            but as a way to prove to myself that I can do anything, to me it's not a question of if but how. <br>
-          </p>
-          <a id="contact-me-button" href="#contact-me">Contact me</a>
-          </section>
+        <img src="assets/Images/my-pic.jpg" alt="Joshua Kennedy-Dedam smiling infront of a bridge." />
+        <figcaption style="display: flex; justify-content: center;">Joshua Kennedy-Dedam</figcaption>
+      </figure>
+
+<!-- This div is just a  vertical seperator betwen the image and the text -->
+      <div 
+        style="
+          background-color: black;
+          width: 5px;
+          height: 500px;        
+          border-radius: 40%;
+        "
+      ></div>
+      <!-- This about me text section is resposible for all the text in the about me section -->
+      <section id="about-me-text">
+        <h2>About me</h2>
+        <p>
+          My name is Joshua Kennedy-Dedam and I am a 20 year old music teacher
+          from Listuguj, QC. <br />
+          I have a passion for learning that stems from childhood, always
+          wanting to learn as much as I can <br />
+          in my particular hobby at the time.For me learning isn't just a way to
+          keep up with current times, <br />
+          but as a way to prove to myself that I can do anything, to me it's not
+          a question of if but how. <br />
+          I know there is a solution to every problem the question is how much
+          work are you willing<br />
+          to put in to uncover a solution.
+        </p>
+      </section>
+
+    </section>
+<!-- This section is the container for everything in the project section. -->
+    <section class="projects" id="projects">
+      <aside>
+        <h1>Projects</h1>
+      </aside>
+
+      <!-- This div is just a  vertical seperator betwen the header and the grid -->
+       <div 
+        style="
+          background-color: black;
+          width: 5px;
+          height: 1000px;
+          border-radius: 40%;
+        "
+      ></div>
+
+
+      <!-- This container class is actual the grid for the figures in the grid -->
+        <ul class="container">
+          <li>
+            <a href="assets/html/calculator.html">
+              <figure>
+                <img src="assets/Images/calculator.jpg" id="first-image" alt="Picture of a calculator on a table" />
+
+                <figcaption>Calulator app</figcaption>
+              </figure>
+            </a>
+          </li>
+
+          <li>
+            <figure>
+              <a href="assets/html/tic-tac-toe.html">
+                <img src="assets/Images/tic tac toe.jpg" alt="Picture of a tic tac toe board."/>
+                <figcaption>Tic-Tac-Toe game</figcaption>
+              </a>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <a href="assets/html/snake.html">
+                <img src="assets/Images/snake.png" alt="a picture of the video game called snake." />
+                <figcaption>Snake game</figcaption>
+              </a>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <a href="assets/html/weather.html">
+                <img src="assets/Images/cloud.jpg" alt="a picture of clouds in the sky."/>
+                <figcaption>Weather app</figcaption>
+              </a>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <a href="assets/html/rock-paper-scissors.html">
+                <img src="assets/Images/RPS.png" alt="a picture of rock paper and scissors lying flat on a surface." />
+                <figcaption>Rock Paper Scissors</figcaption>
+              </a>
+            </figure>
+          </li>
+        </ul>
+      
     </section>
 
-    <footer></footer>
+
+    <section class="contact-me" id="contact-me">
+      <section id="contact-text">
+        <h2>Send us a message!</h2>
+        <p>
+          Leave your contact info and a message and we will get back to you as soon as possible!
+        </p>
+      </section>
+      <form>
+        <label for="first-name">First name:</label>
+        <input type="text" id="first-name" >
+        <label for="last-name">Last name:</label>
+        <input type="text" id="last-name" >
+        <label for="email">Email:</label>
+        <input type="text" id="email" >
+        <label for="message">message:</label>
+        <textarea name="message" id="message" rows="10"></textarea>
+        <button style="position: relative; left:253px; width:250px;">Send</button>
+      </form>
+      
+    </section>
+
+    <footer>
+      <h3>made with love ❤️</h3>
+    </footer>
   </body>
 </html>

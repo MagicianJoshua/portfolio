@@ -135,6 +135,12 @@ textarea {
   margin-bottom: 30px;
 }
 
+/* This class is just responsible for the text in the figure so it always aligns
+in the caption */
+.about-me figure {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* This class just changes the img to an appropriate size */
@@ -162,7 +168,6 @@ textarea {
 
 /* This class is the container for everything in the project section of the website. */
 .projects {
-  padding-top: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -309,6 +314,8 @@ size gets passed 1062 */
   }
 
   .about-me {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -328,12 +335,19 @@ size gets passed 1062 */
   }
 
   .projects {
-    transform: scale(1);
+    transform: scale(.75);
     flex-direction: column;
   }
   .projects aside {
     padding: 0;
     margin-right: 0;
+    margin-left:0;
+  }
+  .projects aside h1{
+    margin-bottom: 45px;
+  }
+  .container{
+    margin: 0;
   }
   div {
     display: none;

@@ -13,7 +13,7 @@
 N/A
 
 ## Link
- [Link to website](https://magicianjoshua.github.io/portfolio/)
+ [Link to website](https://magicianjoshua.github.io/wacky-portfolio-challenge-2/)
 
  ## Credits
  [Joshua Kennedy-Dedam](https://github.com/MagicianJoshua)
